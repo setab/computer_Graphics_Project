@@ -136,7 +136,7 @@ struct GameState
     bool isPaused;
     int winningScore; // Score needed to win (typically 11)
 
-    GameState() : activeParticles(0), isPaused(false), winningScore(3) {}
+    GameState() : activeParticles(0), isPaused(false), winningScore(2) {}
 };
 
 #endif

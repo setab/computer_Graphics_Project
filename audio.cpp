@@ -138,7 +138,7 @@ void initAudio()
     // Load audio files (WAV format)
     musicBuffer = loadWAV("music/background_music.wav");
     paddleHitBuffer = loadWAV("music/paddle_hit.wav");
-    wallHitBuffer = loadWAV("music/wall_hit.wav");
+    // wallHitBuffer = loadWAV("music/wall_hit.wav");
     scoreBuffer = loadWAV("music/score.wav");
     winBuffer = loadWAV("music/win.wav");
 
